@@ -115,6 +115,12 @@ private fun DashboardContent(
                 style = MaterialTheme.typography.bodyMedium,
                 color = MaterialTheme.colorScheme.onSurfaceVariant
             )
+            Spacer(modifier = Modifier.height(2.dp))
+            Text(
+                text = "Last updated at ${data.lastUpdateTime}",
+                style = MaterialTheme.typography.bodySmall,
+                color = MaterialTheme.colorScheme.primary
+            )
         }
         
         Spacer(modifier = Modifier.height(8.dp))

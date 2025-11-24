@@ -6,6 +6,7 @@ data class DashboardData(
     val activeUsers: Int,
     val avgSessionsPerUser: Double,
     val topSounds: List<TopChartItem>,
-    val date: String
+    val date: String,
+    val lastUpdateTime: String
 )
 
